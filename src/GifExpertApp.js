@@ -6,12 +6,12 @@ export const GifExpertApp = () => {
 
  
 
-    const [categories, setCategories] = useState(['Avengers'])
+    const [categories, setCategories] = useState(['programacion'])
 
 
     return (
         <>
-            <h2 className="centro">GifExpertApp by: Manuel Prado</h2>
+            <h2 className="centro">App Gif by: Manuel Prado</h2>
             <AddCategory setCategories={ setCategories } />
             <hr />
 
